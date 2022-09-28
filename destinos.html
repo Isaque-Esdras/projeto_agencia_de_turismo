@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="destinos.css">
+    <title>Site do Agente - CVC</title>
+</head>
+<body>
+    
+    <header><h1><i> CVC Turismo</i></h1></header>
+    <span><i> Cadastro de Viagens - Ambiente do Agente de Turismo</i></span>
+    <main>
+        <section>
+
+            <div id="campoViagem">
+
+            <label for="destino">Destino:</label>
+            <input type="text" id="destino">
+            <label for="pessoas">Pessoas:</label>
+            <input type="number" name="" id="pessoasQuantidade">
+            <label for="ida">Embarque:</label>
+            <input type="datetime-local" name="" id="ida">
+            <label for="volta">Retorno:</label>
+            <input type="datetime-local" name="" id="volta">
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="nome">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            <label for="contato">Telefone:</label>
+            <input type="tel" name="fone" id="telefone">
+
+            </div>
+
+            <div>
+                <button id="but" onclick="produto.gerar()">Check-In</button>
+                <button onclick="produto.confirmar()">CONFIRMAR</button>
+            </div>
+
+            <span>Check-In</span>
+            <div id="select">
+            <select name="sec" id="seletor" size="1">
+              <option value="">
+
+              </option>
+            </select>
+            </div>
+
+            <div id="res"></div>
+            
+        </section>
+        
+    </main>
+
+
+    <script src="./destinos.js"></script>
+</body>
+</html>

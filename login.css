@@ -1,0 +1,91 @@
+*{
+    margin: 2px;
+}
+
+body{
+
+    background: rgb(251, 227, 9);
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#carro{
+    width: 500px;
+    height: 680px;
+    line-height: 300px;
+}
+
+#salvador{
+    width: 400px;
+    height: 500px;
+    border-radius: 6px;
+    border: 10px solid white;
+}
+
+#rio{
+    width: 400px;
+    height: 500px;
+    border-radius: 6px;
+    border: 10px solid white;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+#cvc{
+    background: rgb(81, 118, 197);
+    width: 200px;
+    text-align: center;
+    border-radius: 50%;
+    color: yellow;
+    font-size: 28pt;
+    
+}
+
+
+h1{
+    text-align: center;
+    height: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  rgb(81, 118, 197);
+    color: white;
+}
+
+#inputs{
+    
+    text-align: end;
+}
+
+button{
+
+    background: white;
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+    width: 100px;
+}
+
+button:hover{
+
+    background-color:rgb(81, 118, 197) ;
+    color: white;
+    cursor: pointer;
+}
+
+input{
+
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 2px;
+}
+
+table{
+
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+}
